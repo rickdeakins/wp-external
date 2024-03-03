@@ -1,4 +1,6 @@
-  export default function FAQ() {
+import FAQText from '../components/FAQText';
+
+export default function FAQ() {
       return (
         <div className="bg-light container-fluid align-items-center text-center" style={{ paddingTop: '170px' }}>
           {/* Heading image */}
@@ -7,8 +9,8 @@
           <div className="w-50 mx-auto">
             <div className="d-flex flex-column justify-content-center align-items-center mb-5">
                 {/* Content for the first flex box */}
-                <p><strong>FAQ</strong><br/>
-                Placeholder doc for SVG</p>
+                <h3>FAQ</h3><br/>
+                <FAQText />
               </div> 
             </div>
         </div>  
