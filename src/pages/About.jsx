@@ -1,13 +1,17 @@
 import AboutText from '../components/AboutText';
 
+const containerStyle = {
+  paddingTop: '20%',
+  paddingBottom: '10%',
+}
+
 const bodyStyle = {
-  margin: "20%",
+  margin: "0 20%",
   textAlign: "left",
 }
 
 const headingStyle= {
   color:'#009999', 
-  marginTop: '15%',
   textAlign: 'left'
 }
 
@@ -17,12 +21,11 @@ const imageStyle = {
   borderRadius: '3%', 
   marginTop:'10%', 
   marginLeft: '10%',
-  // marginBottom: '20%'
 }
 
 export default function About() {
   return (
-<div className="bg-light container-flex">
+<div className="bg-light container-flex" style={containerStyle}>
   <div className="body" style={bodyStyle}>
       <div className="row">
         {/* Left column for text */}
@@ -33,7 +36,7 @@ export default function About() {
 
         {/* Right column for image */}
         <div className="col-lg-5 align-items-center">
-        <img className="mariaImage" src="images/MariaWP.png" alt="maria" style={imageStyle} /> 
+        <img className="mariaImage" src="images/MariaWP.png" alt="maria" style={imageStyle}/> 
         </div>
       </div>
     </div>
