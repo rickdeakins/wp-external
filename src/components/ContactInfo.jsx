@@ -1,5 +1,5 @@
 const headerStyle = {
-    color:'#009999' 
+    color:'#495057', 
 }
 
 const textStyle = {

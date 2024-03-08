@@ -2,8 +2,9 @@ import ContactInfo from '../components/ContactInfo';
 import ContactForm from '../components/ContactForm';
 
 const headingStyle= {
-  color:'#009999', 
-  textAlign: 'center'
+  textAlign: 'center',
+  color:'#495057', 
+
 }
 
 const containerStyle = {
@@ -12,8 +13,13 @@ const containerStyle = {
 }
 
 const bodyStyle = {
-  margin: "0 20%",
+  margin: "0 25%",
   textAlign: "center",
+  border: '2px',
+  borderRadius: '3%',
+  backgroundColor: '#fffcf9',
+  boxShadow: '2px 2px 4px rgba(1, 1, 1, 0.5)',
+  padding: '10px' 
 }
 
 export default function Contact() {

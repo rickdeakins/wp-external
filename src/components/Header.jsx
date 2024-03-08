@@ -8,8 +8,6 @@ const headerStyle = {
     right: 0
 }
 
-
-
 function Header(){
     return(
         <div className="text-white py-1 fixed-top" style={headerStyle}>

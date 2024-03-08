@@ -5,7 +5,7 @@ const listStyle = {
 
 const subHeadStyle = {
   textAlign: 'left',
-  color:'#009999', 
+  color:'#495057', 
 }
 
 const FAQText = () => {
@@ -23,13 +23,13 @@ const FAQText = () => {
             <li>Food refusal</li>
             <li>Self feeding refusal (my child will not feed themself)</li>
             <li>Poor transition to cups (my child will not accept a cup)</li>
-        </ul><br/>
+        </ul>
       
       <h5 class="subhead" style = {subHeadStyle}>Which areas does Whole Practice Feeding therapy offer in-home services?</h5>
         <ul style={listStyle}>
             <li>Within a 20 mile radius of Cleveland Ohio.</li> 
-            <li>Farther visits will be considered upon request and may require additional mileage fee.</li><br/>   
-        </ul><br/>
+            <li>Farther visits will be considered upon request and may require additional mileage fee.</li>   
+        </ul>
 
       <h5 class="subhead" style = {subHeadStyle}>Does Whole Practice Feeding Therapy accept insurance?</h5>
       <ul style ={listStyle}>

@@ -1,9 +1,9 @@
 const ContactForm = () => {
     return(
         <div className="container d-flex justify-content-start align-items-center pb-3">
-            <p className="col-lg-5 text-center mx-auto bg-light">
+            <p className="col-lg-5 text-center mx-auto bg-light" style={{padding: '10px',borderRadius: '3%', boxShadow: '2px 2px 4px rgba(1, 1, 1, 0.5)',color:'#495057'}}>
             <h3><strong>Contact With Any Inquiries</strong></h3>
-            <form style={{ marginBottom: '20%' }}>
+            <form style={{ padding: '5px' }}>
             <div class="mb-3">
                 <label for="Full Name" class="form-label">Full Name</label>
                 <input type="password" class="form-control" id="fullNameInput"/>

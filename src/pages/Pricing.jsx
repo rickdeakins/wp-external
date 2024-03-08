@@ -1,5 +1,10 @@
+import PricingText from '../components/PricingText';
+
+
 const containerStyle = {
-  paddingTop: '20%'
+  alignItems: 'center',
+  paddingTop: '20%',
+  paddingBottom: '10%'
 }
 
 const imageStyle = {
@@ -11,10 +16,11 @@ const imageStyle = {
 
 export default function Pricing() {
     return (
-      <div className="bg-light container-fluid" style={containerStyle}>
-        <div className="align-items-center">
+      <div className="bg-light align-items-center" style={containerStyle}>
+        {/* <div className="align-items-center">
           <img src="images/pricing-component.svg" alt="pricing" style={imageStyle} /> 
-        </div>    
+        </div>     */}
+      <PricingText />
       </div>
        )
   }
