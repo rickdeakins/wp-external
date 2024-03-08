@@ -2,6 +2,7 @@ import HomeImages from '../components/HomeImages';
 
 const bodyStyling = {
     paddingTop: '20%',
+    paddingBottom: '10%'
 }
 
 const headingStyle= {
@@ -25,7 +26,7 @@ export default function Home() {
                 {/* <h2 style={headingStyle}>Welcome to Whole Practice Feeding Therapy!</h2><br/>
                 <h4 style={subHeadingStyle}>Whole Person, Whole Family Dynamic, Whole Projection to Success</h4>     */}
                 <img src ="./public/images/welcomeImage.svg" style ={welcomeImage}/>
-                <HomeImages /><br/>
+                <HomeImages />
             </div>
         </main>
     )
