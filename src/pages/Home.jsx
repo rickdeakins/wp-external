@@ -6,7 +6,7 @@ const bodyStyling = {
 }
 
 const headingStyle= {
-    color:'#009999', 
+    color:'#009999',
     textAlign: 'center',
   }
 
