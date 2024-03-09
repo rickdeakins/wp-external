@@ -8,7 +8,7 @@ const textStyle = {
 
 const textBody= {
     textAlign: 'left',
-    margin: '0 30%'
+    margin: '0 10%'
 }
 
 

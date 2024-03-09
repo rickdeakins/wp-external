@@ -7,10 +7,6 @@ const headingStyle= {
 
 }
 
-const containerStyle = {
-  paddingTop: '20%',
-  paddingBottom: '10%',
-}
 
 const bodyStyle = {
   margin: "0 25%",
@@ -24,8 +20,8 @@ const bodyStyle = {
 
 export default function Contact() {
     return (
-      <div className="bg-light container-fluid" style={containerStyle}>
-        <div className="align-items-center" style={bodyStyle}>
+      <div className="ContactContainer bg-light container-fluid">
+        <div className="ContactBody align-items-center" >
           <h2 class="heading" style={headingStyle}>Contact</h2>
         <ContactInfo />  
         <ContactForm />

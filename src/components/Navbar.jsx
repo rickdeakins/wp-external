@@ -1,8 +1,13 @@
 import { Link, useLocation } from 'react-router-dom';
 
+const navBack = {
+  backgroundColor: '#FAF7F4',
+}
+
 const navStyle = {
   color: '#495057',
   backgroundColor: '#efe6dd',
+  borderRadius: '0',
   boxShadow: '1px 1px 1px rgba(0, 0, 0, 0.25)'
 
 }
@@ -10,7 +15,8 @@ const navStyle = {
 const currentPageStyle = {
   color: '#212529',
   backgroundColor: '#fffcf9',
-  boxShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
+  borderRadius: '0',
+  boxShadow: '2px 2px 4px rgba(0, 0, 0, 0.35)'
 }
 
 
@@ -19,7 +25,7 @@ function Nav() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul className="nav nav-tabs justify-content-center mt-20">
+    <ul className="nav nav-tabs justify-content-center mt-20" style={navBack}>
       <li className="nav-item">
         <Link to="/Home"
           className={currentPage === '/Home' ? 'nav-link active' : 'nav-link'} style={currentPage === '/Home' ? currentPageStyle : navStyle}>
