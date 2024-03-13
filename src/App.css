@@ -25,9 +25,37 @@
 
 /* Style by Page */
 /* Home.jsx */
-.welcomeImage {
-  max-width: 70%
+ .mainBody.bg-light.container-fluid {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  align-items: center;
 }
+
+
+
+
+.welcomeImage {
+  max-width: 50%;
+}
+
+.main-image {
+  width: 50%;
+  height: auto;
+  border-radius: 2%;
+  box-shadow: 2px 2px 4px rgba(1, 1, 1, 0.5) 
+} 
+
+.sub-image {
+  width: 25%; 
+  height: auto;
+  border-radius: 2%;
+  box-shadow: 2px 2px 4px rgba(1, 1, 1, 0.5)
+}
+
+
+
+
+
 
 
 /* About */
@@ -128,7 +156,9 @@
   padding: 30px
 }
 
+/* .contactText {
 
+} */
 
 
 
@@ -185,8 +215,19 @@
 /* Contact */
   .ContactBody.align-items-center {
   margin: 10% 10%;
+  }
 
+  .contactText {
+    text-align: left;
+    font-size: 2.5vw
+  }
+
+  @media (max-width: 768px) {
+    .sticky-header {
+        position: relative; /* Un-fix the header for smaller viewports */
+    }
 }
+
 }
 
 
