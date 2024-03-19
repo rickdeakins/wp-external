@@ -7,7 +7,6 @@ const PricingText = () => {
             <p>Follow Up Visits: $125</p>
             <p>Virtual Visit: $60</p><br/>
         <h4 class="headerStyle"><strong>Bundling Options</strong></h4>
-            <p >3-Visit Bundle for $350 ($25 Savings)</p>
             <p>4-Visit Bundle for $400 ($100 Savings)</p><br/>
    </div></div>
    )
